@@ -1,0 +1,1216 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RemoteX</title>
+    <link rel="stylesheet" href="output.css" />
+    <script
+      src="https://kit.fontawesome.com/5a0914105d.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .faded {
+        background: rgba(120, 2, 183, 0.235);
+      }
+
+      .fadedText {
+        color: rgba(120, 2, 183, 0.235);
+      }
+
+      .fadedBg {
+        background: rgba(120, 2, 183, 0.117);
+      }
+
+      .featuredBg {
+        background: rgba(120, 2, 183, 0.067);
+      }
+
+      .img {
+        width: 100%;
+        height: 50vh;
+        /* height: 550px; */
+        background-image: linear-gradient(
+            rgba(60, 72, 54, 0.417),
+            rgba(103, 87, 108, 0.41)
+          ),
+          url(images/hero10.jpg);
+        background-size: cover;
+        background-position: center;
+
+        color: #fff;
+        overflow: hidden;
+      }
+
+      .img2 {
+        width: 100%;
+        height: 50vh;
+        /* height: 550px; */
+        background-image: linear-gradient(
+            rgba(72, 54, 71, 0.522),
+            rgba(101, 87, 108, 0.463)
+          ),
+          url(images/hero6.jpg);
+        background-size: cover;
+        background-position: center;
+
+        color: #fff;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body class="">
+    <div class="overflow-hidden">
+      <header>
+        <nav class="flex justify-between mx-20 m-4 mt-5 items-center">
+          <div class="flex gap-1">
+            <img src="images/logo.png" alt="" class="w-8" />
+            <h1 class="text-[27px] font-bold text-[#7902B7]">RemoteX</h1>
+          </div>
+          <ul class="flex gap-5 items-center">
+            <li class="cursor-pointer">Home</li>
+            <li class="cursor-pointer">Category</li>
+            <li class="cursor-pointer">Find a job</li>
+            <li class="cursor-pointer">Companies</li>
+            <li class="cursor-pointer">Candidates</li>
+            <li class="cursor-pointer">Review</li>
+            <div class="flex gap-5 ml-9">
+              <button
+                class="border-[1.5px] text-[#7902B7] border-[#7902B7] text-[15px] p-[5px] px-6 rounded-full"
+              >
+                Sign in
+              </button>
+              <button
+                class="bg-[#7902B7] text-white text-[15px] p-[5px] px-6 rounded-full"
+              >
+                Post a job
+              </button>
+            </div>
+          </ul>
+        </nav>
+
+        <div class="flex justify-center mx-20 mt-20 gap-5">
+          <div class="flex flex-col items-center mt-10 pl-5 self-start gap-6">
+            <h1 class="text-6xl font-bold text-left self-start">
+              Find world's best <br />
+              <span class="text-[#7902B7]">remote</span> job
+            </h1>
+            <p class="self-start w-[65%]">
+              Discover the best remote and work from home jobs at top companies.
+              sint molestiae animi sunt ipsum commodi
+            </p>
+            <div class="self-start relative">
+              <input
+                type="email"
+                placeholder="Search job..."
+                class="bg-white w-[320px] md:w-[460px] p-2.5 pl-12 rounded-full border-2 focus:border-[#7902B7] focus:ring-[#7902B7] outline-none"
+              />
+              <img
+                src="images/search.png"
+                alt=""
+                class="absolute left-4 top-3 w-7"
+              />
+              <button
+                class="bg-[#7902B7] absolute z-10 right-1 md:right-2 lg:right-1 top-1 text-white p-2.5 px-5 md:px-10 rounded-full text-sm font-semibold"
+              >
+                Search
+              </button>
+            </div>
+            <p class="self-start text-sm">
+              Popular searches:
+              <span class="font-semibold">
+                Designer, Developer, Senior Engineer</span
+              >
+            </p>
+          </div>
+          <div class="grid grid-rows-2 grid-flow-col gap-3">
+            <div class="col-span-2 flex justify-end">
+              <img
+                src="images/hero7.jpg"
+                alt=""
+                class="w-[260px] h-[250px] rounded-3xl object-cover"
+              />
+            </div>
+            <div class="row-span-2 col-span-2">
+              <img
+                src="images/hero3.webp"
+                alt=""
+                class="w-[300px] h-[220px] rounded-3xl object-cover"
+              />
+            </div>
+            <div class="row-start-1 row-span-3 mt-7">
+              <img
+                src="images/hero2.jpg"
+                alt=""
+                class="w-[450px] h-[420px] object-cover rounded-3xl"
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- how it works -->
+
+      <div class="m-14 mx-10 md:mx-24 flex flex-col justify-start">
+        <h2 class="font-bold text-2xl">
+          How it <span class="text-[#7902B7] text-2xl">Work</span>
+        </h2>
+        <p class="">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit obcaecati
+          ducimus!
+        </p>
+        <div class="flex self-start gap-28 pt-2">
+          <div class="">
+            <h1
+              class="p-3 px-4 my-4 rounded-full faded text-2xl font-bold w-fit"
+            >
+              1
+            </h1>
+            <h3 class="font-bold text-xl">Register Account</h3>
+            <p class="">First, you need to make an account.</p>
+          </div>
+
+          <div class="">
+            <h1
+              class="p-3 px-4 my-4 rounded-full faded text-2xl font-bold w-fit"
+            >
+              2
+            </h1>
+            <h3 class="font-bold text-xl">Find Job</h3>
+            <p class="">Second, search for the job you want.</p>
+          </div>
+
+          <div class="">
+            <h1
+              class="p-3 px-4 my-4 rounded-full faded text-2xl font-bold w-fit"
+            >
+              3
+            </h1>
+            <h3 class="font-bold text-xl">Apply Job</h3>
+            <p class="">Third, apply to the company and want it.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- category -->
+
+      <section class="fadedBg p-10 px-14 mt-20 mx-10 rounded-3xl">
+        <div class="px-4">
+          <h2 class="font-bold text-2xl pt-6">
+            Explore by <span class="text-[#7902B7] text-2xl">Category</span>
+          </h2>
+          <p class="w-[55%] pt-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus, voluptate? ipsum dolor sit amet, consectetur
+            adipisicing.
+          </p>
+        </div>
+
+        <div class="mt-9 flex flex-wrap gap-6 justify-center">
+          <div
+            class="bg-white w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+          >
+            <h1
+              class="p-3 px-3 mb-2 rounded-full fadedBg text-lg font-bold w-fit text-[#7902B7]"
+            >
+              <i class="fa-solid fa-code"></i>
+            </h1>
+            <h3 class="font-bold text-[18px]">Development & IT</h3>
+            <h6 class="text-[15px]">101 jobs</h6>
+            <p class="text-[15px]">
+              JavaScript, Java, Python, Node.js, React, Android...
+            </p>
+          </div>
+
+          <div
+            class="bg-white w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+          >
+            <h1
+              class="p-3 px-3 mb-2 rounded-full fadedBg text-lg font-bold w-fit text-[#7902B7]"
+            >
+              <i class="fa-solid fa-palette"></i>
+            </h1>
+            <h3 class="font-bold text-[18px]">Design & Creative</h3>
+            <h6 class="text-[15px]">77 jobs</h6>
+            <p class="text-[15px]">
+              Figma, Adobe XD, InDesign, Graphic, Illustrator...
+            </p>
+          </div>
+
+          <div
+            class="bg-white w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+          >
+            <h1
+              class="p-3 px-3 mb-2 rounded-full fadedBg text-lg font-bold w-fit text-[#7902B7]"
+            >
+              <i class="fa-solid fa-location-crosshairs"></i>
+            </h1>
+            <h3 class="font-bold text-[18px]">Marketing & Sales</h3>
+            <h6 class="text-[15px]">65 jobs</h6>
+            <p class="text-[15px]">
+              SEO, Data Analysis, SEM, Email marketing, Advertising...
+            </p>
+          </div>
+
+          <div
+            class="bg-white w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+          >
+            <h1
+              class="p-3 px-3 mb-2 rounded-full fadedBg text-lg font-bold w-fit text-[#7902B7]"
+            >
+              <i class="fa-solid fa-pencil"></i>
+            </h1>
+            <h3 class="font-bold text-[18px]">Writing & Translation</h3>
+            <h6 class="text-[15px]">49 jobs</h6>
+            <p class="text-[15px]">
+              Article writing, Documentation, Editing, Language Pairs...
+            </p>
+          </div>
+
+          <div
+            class="bg-white w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+          >
+            <h1
+              class="p-3 px-3 mb-2 rounded-full fadedBg text-lg font-bold w-fit text-[#7902B7]"
+            >
+              <i class="fa-solid fa-headset"></i>
+            </h1>
+            <h3 class="font-bold text-[18px]">Customer Support</h3>
+            <h6 class="text-[15px]">54 jobs</h6>
+            <p class="text-[15px]">
+              Call Center, Problem Resolution, Live Chat, Account Management...
+            </p>
+          </div>
+
+          <div
+            class="bg-[#7902B7] text-white w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+          >
+            <h1
+              class="p-2.5 mb-2 bg-white text-[#7902B7] rounded-full text-lg font-bold w-fit"
+            >
+              <i class="fa-solid fa-plus"></i>
+            </h1>
+            <h2 class="text-2xl font-semibold">View More</h2>
+            <div class="flex justify-between pt-7 items-center">
+              <p class="">View All Category</p>
+              <h1
+                class="bg-white text-[#7902B7] p-1 px-2.5 rounded-full text-2xl font-bold w-fit"
+              >
+                &#8594;
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- get started -->
+
+      <section class="mt-10">
+        <div class="flex justify-center mx-20 mb-10 mt-28 gap-20">
+          <div class="grid grid-rows-1 grid-flow-col gap-3">
+            <div class="row-start-1 row-span-3 mt-14">
+              <img
+                src="images/hero2.jpg"
+                alt=""
+                class="w-[120px] h-[350px] object-cover rounded-3xl"
+              />
+            </div>
+            <div class="col-span-2 flex gap-4">
+              <img
+                src="images/hero1.jpg"
+                alt=""
+                class="w-[100px] h-[300px] mt-7 rounded-3xl object-cover"
+              />
+              <img
+                src="images/hero4.jpg"
+                alt=""
+                class="w-[100px] h-[250px] rounded-3xl object-cover"
+              />
+            </div>
+            <!-- <div class="row-span-2 col-span-2">
+              <img
+                src="images/hero8.webp"
+                alt=""
+                class="w-[220px] h-[220px] rounded-3xl object-cover"
+              />
+            </div> -->
+          </div>
+          <div
+            class="flex flex-col items-center mt-10 pl-5 self-start gap-6 w-[35%]"
+          >
+            <h1 class="text-4xl font-bold text-left self-start">
+              Find your perfect job <br />
+              based on <span class="text-[#7902B7]">your interest</span>
+            </h1>
+            <ul class="list-disc flex flex-col gap-3 px-3">
+              <li class="text-[17px]">
+                We offer a wide range of exciting career opportunities across
+                various industries.
+              </li>
+              <li class="text-[17px]">
+                Achieve a better work-life balance with our handpicked remote
+                job openings.
+                <!-- Explore our job postings today and take the firt step towards a fulfilling career. -->
+              </li>
+              <li class="text-[17px]">
+                Discover a world of remote work possibilities. <br />
+                Find your ideal remote position today!
+              </li>
+
+              <button
+                class="bg-[#7902B7] text-white text-[15px] p-2 w-fit mt-5 px-8 rounded-full"
+              >
+                Get started
+              </button>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- featured jobs -->
+
+      <section class="featuredBg p-10 px-12 mt-20">
+        <div class="px-12">
+          <h2 class="font-bold text-2xl pt-6">
+            Featured <span class="text-[#7902B7] text-2xl">Remote</span> Jobs
+          </h2>
+          <p class="w-[55%] pt-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus, voluptate? ipsum dolor sit amet, consectetur
+            adipisicing.
+          </p>
+          <p class="font-semibold text-sm pt-2 text-[#7902B7]">
+            2031 jobs live - 197 added today
+          </p>
+        </div>
+
+        <div class="mt-9 flex flex-wrap gap-6 justify-center">
+          <div
+            class="bg-white w-[250px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+          >
+            <div class="flex justify-between">
+              <div class="flex gap-2">
+                <img
+                  src="images/remote (3).png"
+                  class="w-10 h-10 rounded-full object-cover"
+                />
+
+                <div class="">
+                  <h3 class="font-bold">Webflow</h3>
+                  <h6 class="text-sm">Design & Creative</h6>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <h1 class="text-xl font-bold">Senior Visual Designer</h1>
+            <ul class="flex flex-wrap gap-3 my-2">
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                Remote
+              </li>
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                <i class="fa-solid fa-location-dot"></i> Chicago
+              </li>
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                <i class="fa-solid fa-sack-dollar"></i> $270 - $300/Month
+              </li>
+            </ul>
+
+            <p class="text-sm">
+              <span class="text-[#7902B7] font-bold">35</span> days left to
+              apply
+            </p>
+          </div>
+
+          <div
+            class="bg-white w-[250px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+          >
+            <div class="flex justify-between">
+              <div class="flex gap-2">
+                <img
+                  src="images/remote (1).png"
+                  class="w-10 h-10 rounded-full object-cover"
+                />
+
+                <div class="">
+                  <h3 class="font-bold">Google</h3>
+                  <h6 class="text-sm">Development & IT</h6>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <h1 class="text-xl font-bold">
+              Full Stack <br />
+              Developer
+            </h1>
+            <ul class="flex flex-wrap gap-3 my-2">
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                Remote
+              </li>
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                <i class="fa-solid fa-location-dot"></i> Califonia
+              </li>
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                <i class="fa-solid fa-sack-dollar"></i> $350 - $500/Month
+              </li>
+            </ul>
+
+            <p class="text-sm">
+              <span class="text-[#7902B7] font-bold">29</span> days left to
+              apply
+            </p>
+          </div>
+
+          <div
+            class="bg-white w-[250px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+          >
+            <div class="flex justify-between">
+              <div class="flex gap-2">
+                <img
+                  src="images/remote (4).jpg"
+                  class="w-10 h-10 rounded-full object-cover"
+                />
+
+                <div class="">
+                  <h3 class="font-bold">Descript</h3>
+                  <h6 class="text-sm">Design & Creative</h6>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <h1 class="text-xl font-bold">Junior Product Designer</h1>
+            <ul class="flex flex-wrap gap-3 my-2">
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                Remote
+              </li>
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                <i class="fa-solid fa-location-dot"></i> New York
+              </li>
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                <i class="fa-solid fa-sack-dollar"></i> $200 - $300/Day
+              </li>
+            </ul>
+
+            <p class="text-sm">
+              <span class="text-[#7902B7] font-bold">40</span> days left to
+              apply
+            </p>
+          </div>
+
+          <div
+            class="bg-white w-[250px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+          >
+            <div class="flex justify-between">
+              <div class="flex gap-2">
+                <img
+                  src="images/remote (4).png"
+                  class="w-10 h-10 rounded-full object-cover"
+                />
+
+                <div class="">
+                  <h3 class="font-bold">Slack</h3>
+                  <h6 class="text-sm">Development & IT</h6>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <h1 class="text-xl font-bold">Senior Backend Developer</h1>
+            <ul class="flex flex-wrap gap-3 my-2">
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                Remote
+              </li>
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                London
+              </li>
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                <i class="fa-solid fa-sack-dollar"></i> $420 - $550/Month
+              </li>
+            </ul>
+
+            <p class="text-sm">
+              <span class="text-[#7902B7] font-bold">35</span> days left to
+              apply
+            </p>
+          </div>
+
+          <div
+            class="bg-white w-[250px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+          >
+            <div class="flex justify-between">
+              <div class="flex gap-2">
+                <img
+                  src="images/remote (7).png"
+                  class="w-10 h-10 rounded-full object-cover"
+                />
+
+                <div class="">
+                  <h3 class="font-bold">Uxper</h3>
+                  <h6 class="text-[13px]">Business Development</h6>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <h1 class="text-xl font-bold">Business Excutive Manager</h1>
+            <ul class="flex flex-wrap gap-3 my-2">
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                Remote
+              </li>
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                <i class="fa-solid fa-location-dot"></i> Singapo
+              </li>
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                <i class="fa-solid fa-sack-dollar"></i> $400 - $450/Month
+              </li>
+            </ul>
+
+            <p class="text-sm">
+              <span class="text-[#7902B7] font-bold">31</span> days left to
+              apply
+            </p>
+          </div>
+
+          <div
+            class="bg-white w-[250px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+          >
+            <div class="flex justify-between">
+              <div class="flex gap-2">
+                <img
+                  src="images/remote (2).png"
+                  class="w-10 h-10 rounded-full object-cover"
+                />
+
+                <div class="">
+                  <h3 class="font-bold">Netomi</h3>
+                  <h6 class="text-sm">Development & IT</h6>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <h1 class="text-xl font-bold">React Native Developer</h1>
+            <ul class="flex flex-wrap gap-3 my-2">
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                Remote
+              </li>
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                <i class="fa-solid fa-location-dot"></i> Chicago
+              </li>
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                <i class="fa-solid fa-sack-dollar"></i> $120 - $150/Day
+              </li>
+            </ul>
+
+            <p class="text-sm">
+              <span class="text-[#7902B7] font-bold">23</span> days left to
+              apply
+            </p>
+          </div>
+
+          <div
+            class="bg-white w-[250px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+          >
+            <div class="flex justify-between">
+              <div class="flex gap-2">
+                <img
+                  src="images/remote (2).jpeg"
+                  class="w-10 h-10 rounded-full object-cover"
+                />
+
+                <div class="">
+                  <h3 class="font-bold">Amazon</h3>
+                  <h6 class="text-sm">Marketing & Sales</h6>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <h1 class="text-xl font-bold">Senior Product Marketing Manager</h1>
+            <ul class="flex flex-wrap gap-3 my-2">
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                Remote
+              </li>
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                <i class="fa-solid fa-location-dot"></i> Canada
+              </li>
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                <i class="fa-solid fa-sack-dollar"></i> $360 - $420/Month
+              </li>
+            </ul>
+
+            <p class="text-sm">
+              <span class="text-[#7902B7] font-bold">41</span> days left to
+              apply
+            </p>
+          </div>
+
+          <div
+            class="bg-white w-[250px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+          >
+            <div class="flex justify-between">
+              <div class="flex gap-2">
+                <img
+                  src="images/remote (5).png"
+                  class="w-10 h-10 rounded-full object-cover"
+                />
+
+                <div class="">
+                  <h3 class="font-bold">Figma</h3>
+                  <h6 class="text-sm">Design & Creative</h6>
+                </div>
+              </div>
+
+              <div class="">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <h1 class="text-xl font-bold">UI/UX Designer</h1>
+            <ul class="flex flex-wrap gap-3 my-2">
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                Remote
+              </li>
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                <i class="fa-solid fa-location-dot"></i> Chicago
+              </li>
+              <li
+                class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+              >
+                <i class="fa-solid fa-sack-dollar"></i> $170 - $220/Day
+              </li>
+            </ul>
+
+            <p class="text-sm">
+              <span class="text-[#7902B7] font-bold">20</span> days left to
+              apply
+            </p>
+          </div>
+        </div>
+
+        <p
+          class="text-center py-4 pt-10 text-[#7902B7] underline font-bold cursor-pointer text-lg"
+        >
+          View all jobs
+        </p>
+      </section>
+
+      <!-- candidate -->
+
+      <section class="">
+        <div
+          class="img flex flex-col justify-center items-center mx-auto gap-3 text-center"
+        >
+          <div class="w-[45%] pt-10">
+            <h4 class="uppercase font-semibold">Candidate</h4>
+            <h1 class="font-bold text-[40px]">Find your dream job</h1>
+            <p class="pt-2 pb-4">
+              Recuiters looking for remote talent can find your resume based on
+              keywords, job titles, skills and more
+            </p>
+
+            <button
+              class="bg-[#7902B7] text-white text-[15px] font-semibold p-2 px-10 rounded-full"
+            >
+              Post a resume today
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- companies -->
+
+      <section class="my-10 mx-10 md:mx-24">
+        <div class="px-10">
+          <h2 class="font-bold text-2xl pt-6">
+            Companies that let you work
+            <span class="text-[#7902B7] text-2xl">remotely</span>
+          </h2>
+          <p class="pt-2">Find companies that deserve you!</p>
+
+          <div class="mt-10 flex flex-wrap gap-5 justify-center">
+            <figure class="w-[300px] shadow-lg rounded-3xl cursor-pointer">
+              <img
+                src="images/remote (1).jpeg"
+                class="w-full h-44 object-cover rounded-t-2xl"
+              />
+              <figcaption class="p-4 bg-white rounded-b-2xl">
+                <div class="flex gap-2">
+                  <div class="">
+                    <img
+                      src="images/remote (1).png"
+                      class="w-10 h-10 rounded-full object-cover"
+                    />
+                  </div>
+
+                  <div class="">
+                    <h3 class="font-bold">Google</h3>
+                    <div class="flex gap-3 items-center mb-3">
+                      <h6 class="text-sm">
+                        <i class="fa-solid fa-location-dot text-[#7902b7]"></i>
+                        New York
+                      </h6>
+                      <h6
+                        class="fadedBg text-[#7902B7] rounded-full w-fit p-0.5 px-2 text-sm"
+                      >
+                        <i class="fa-solid fa-star"></i> 4.9
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+
+                <ul class="flex flex-wrap gap-3 my-2">
+                  <li
+                    class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+                  >
+                    <i class="fa-regular fa-folder"></i>
+                    Blockchain
+                  </li>
+                  <li
+                    class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+                  >
+                    <i class="fa-regular fa-folder"></i>
+                    Fintech
+                  </li>
+                </ul>
+
+                <p class="text-sm font-semibold">
+                  <span class="text-[#7902B7] font-bold">90</span> jobs
+                  available
+                </p>
+              </figcaption>
+            </figure>
+
+            <figure class="w-[300px] shadow-lg rounded-3xl cursor-pointer">
+              <img
+                src="images/remote (1).jpg"
+                class="w-full h-44 object-cover rounded-t-2xl"
+              />
+              <figcaption class="p-4 bg-white rounded-b-2xl">
+                <div class="flex gap-4">
+                  <div class="">
+                    <img
+                      src="images/remote (3).png"
+                      class="w-10 h-10 rounded-full object-cover"
+                    />
+                  </div>
+
+                  <div class="">
+                    <h3 class="font-bold">Webflow</h3>
+                    <div class="flex gap-3 items-center mb-3">
+                      <h6 class="text-sm">
+                        <i class="fa-solid fa-location-dot text-[#7902b7]"></i>
+                        Chicago
+                      </h6>
+                      <h6
+                        class="fadedBg text-[#7902B7] rounded-full w-fit p-0.5 px-2 text-sm"
+                      >
+                        <i class="fa-solid fa-star"></i> 4.9
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+
+                <ul class="flex flex-wrap gap-3 my-2">
+                  <li
+                    class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+                  >
+                    <i class="fa-regular fa-folder"></i>
+                    Blockchain
+                  </li>
+                  <li
+                    class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+                  >
+                    <i class="fa-regular fa-folder"></i>
+                    Fintech
+                  </li>
+                </ul>
+
+                <p class="text-sm font-semibold">
+                  <span class="text-[#7902B7] font-bold">87</span> jobs
+                  available
+                </p>
+              </figcaption>
+            </figure>
+
+            <figure class="w-[300px] shadow-lg rounded-3xl cursor-pointer">
+              <img
+                src="images/hero5.avif"
+                class="w-full h-44 object-cover rounded-t-2xl"
+              />
+              <figcaption class="p-4 bg-white rounded-b-2xl">
+                <div class="flex gap-4">
+                  <div class="">
+                    <img
+                      src="images/remote (7).png"
+                      class="w-10 h-10 rounded-full object-cover"
+                    />
+                  </div>
+
+                  <div class="">
+                    <h3 class="font-bold">Uxper Group</h3>
+                    <div class="flex gap-3 items-center mb-3">
+                      <h6 class="text-sm">
+                        <i class="fa-solid fa-location-dot text-[#7902b7]"></i>
+                        Singapo
+                      </h6>
+                      <h6
+                        class="fadedBg text-[#7902B7] rounded-full w-fit p-0.5 px-2 text-sm"
+                      >
+                        <i class="fa-solid fa-star"></i> 4.7
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+
+                <ul class="flex flex-wrap gap-3 my-2">
+                  <li
+                    class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+                  >
+                    <i class="fa-regular fa-folder"></i>
+                    Blockchain
+                  </li>
+                  <li
+                    class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
+                  >
+                    <i class="fa-regular fa-folder"></i>
+                    Fintech
+                  </li>
+                </ul>
+
+                <p class="text-sm font-semibold">
+                  <span class="text-[#7902B7] font-bold">78</span> jobs
+                  available
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <p
+            class="text-center py-4 pt-10 text-[#7902B7] underline font-bold cursor-pointer text-lg"
+          >
+            View all companies
+          </p>
+        </div>
+      </section>
+
+      <!-- employer -->
+
+      <section class="mt-16">
+        <div
+          class="img2 flex flex-col justify-center items-center mx-auto gap-3 text-center"
+        >
+          <div class="w-[40%] pt-10">
+            <h4 class="uppercase font-semibold">Employers</h4>
+            <h1 class="font-bold text-[40px]">Hire remotely</h1>
+            <p class="pt-2 pb-4">
+              Find out why over 3 million employers trust RemoteX to deliver
+              qualified applicants
+            </p>
+
+            <button
+              class="bg-[#7902B7] text-white text-[15px] font-semibold p-2 px-10 rounded-full"
+            >
+              Post jobs for free
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- reviews -->
+
+      <section class="featuredBg p-10 px-32">
+        <div class="relative">
+          <h2 class="font-bold text-2xl pt-6">
+            Kind words from
+            <span class="text-[#7902B7] text-2xl">happy remote workers</span>
+          </h2>
+          <p class="pt-2">Lorem ipsum dolor sit amet consectetur elit.</p>
+
+          <div class="flex mt-5 relative">
+            <div
+              class="flex flex-col justify-center items-center w-[500px] mx-auto mt-5"
+            >
+              <i class="fa-solid fa-quote-right text-2xl text-[#7902b7]"></i>
+              <h2 class="font-bold text-lg">Christine George</h2>
+              <h4 class="pt-1 font-semibold">Designer at shopify</h4>
+              <p
+                class="pt-2 text-[15px] flex flex-col justify-center items-center"
+              >
+                I've recommended RemoteX to all my friends seeking remote work.
+                It's the best site out there - simple, efficient and full of
+                opportunities.
+                <img
+                  src="images/hero1.jpg"
+                  class="w-12 h-12 mt-3 rounded-full object-cover"
+                />
+              </p>
+            </div>
+          </div>
+
+          <div class="absolute top-40 z-10 left-44">
+            <img
+              src="images/hero5.avif"
+              class="w-10 h-10 mt-3 cursor-pointer rounded-full object-cover"
+            />
+          </div>
+
+          <div class="absolute top-28 z-10 left-20">
+            <img
+              src="images/hero4.jpg"
+              class="w-10 h-10 mt-3 cursor-pointer rounded-full object-cover"
+            />
+          </div>
+
+          <div class="absolute bottom-8 z-10 left-10">
+            <img
+              src="images/hero2.jpg"
+              class="w-10 h-10 mt-3 cursor-pointer rounded-full object-cover"
+            />
+          </div>
+
+          <div class="absolute top-28 z-10 right-72">
+            <img
+              src="images/hero7.jpg"
+              class="w-10 h-10 mt-3 cursor-pointer rounded-full object-cover"
+            />
+          </div>
+
+          <div class="absolute bottom-32 z-10 right-20">
+            <img
+              src="images/hero3.webp"
+              class="w-10 h-10 mt-3 cursor-pointer rounded-full object-cover"
+            />
+          </div>
+
+          <div class="absolute bottom-8 z-10 right-48">
+            <img
+              src="images/hero9.jpg"
+              class="w-10 h-10 mt-3 cursor-pointer rounded-full object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- newsletter -->
+      <!-- 
+      <section class="mt-6 mx-10 md:mx-24">
+        <div class="flex justify-between mx-10 md:mx-24 my-10">
+          <div class="">
+            <div class="flex gap-4 items-center">
+              <div class="">
+                <h1
+                  class="p-2 px-4 mb-2 rounded-full faded text-2xl font-bold w-fit"
+                >
+                  1
+                </h1>
+              </div>
+              <div class="">
+                <h1 class="text-[#7902B7] font-bold text-2xl">
+                  Subcribe to our newsletter
+                </h1>
+                <p class="">
+                  Lorem ipsum dolor sit amet consectetur elit incidunt.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="self-start relative">
+            <input
+              type="email"
+              placeholder="enter your email"
+              class="bg-white w-[320px] md:w-[460px] p-2.5 pl-5 rounded-full border-2 focus:border-[#7902B7] focus:ring-[#7902B7] outline-none"
+            />
+
+            <button
+              class="bg-[#7902B7] absolute z-10 right-1 md:right-2 lg:right-1 top-1 text-white p-3 px-5 md:px-10 rounded-full text-xs font-semibold"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- footer -->
+
+      <footer class="mt-6">
+        <div class="pt-10">
+          <div
+            class="mb-10 flex flex-wrap md:flex-row md:justify-around gap-7 md:gap-4 mx-10 md:mx-24"
+          >
+            <span class="w-80">
+              <h1
+                class="text-[#7902b7] uppercase text-sm font-bold tracking-wide py-1 md:py-2"
+              >
+                About us
+              </h1>
+              <ul class="flex flex-col">
+                <li class="">34 Richmond Avenue, Houston, Texas</li>
+                <li class="">77012, United States of America</li>
+                <li class="hover:underline cursor-pointer font-semibold pt-2">
+                  T. (00) 732 421 658
+                </li>
+                <li class="hover:underline cursor-pointer font-semibold">
+                  E. remotex@gmail.com
+                </li>
+                <div class="flex gap-3">
+                  <li class="hover:underline cursor-pointer">
+                    <i class="fa-brands fa-linkedin text-lg text-[#7902b7]"></i>
+                  </li>
+                  <li class="hover:underline cursor-pointer">
+                    <i class="fa-brands fa-facebook text-lg text-[#7902b7]"></i>
+                  </li>
+                  <li class="hover:underline cursor-pointer">
+                    <i class="fa-brands fa-twitter text-lg text-[#7902b7]"></i>
+                  </li>
+                </div>
+              </ul>
+            </span>
+
+            <span class="">
+              <h1
+                class="text-[#7902b7] uppercase text-sm font-bold tracking-wide py-1 md:py-2"
+              >
+                Company
+              </h1>
+              <ul class="flex flex-col gap-3">
+                <li class="hover:underline cursor-pointer">About us</li>
+                <li class="hover:underline cursor-pointer">Carrer</li>
+                <li class="hover:underline cursor-pointer">Blogs</li>
+                <li class="hover:underline cursor-pointer">FAQs</li>
+                <li class="hover:underline cursor-pointer">Contact</li>
+              </ul>
+            </span>
+
+            <span class="">
+              <h1
+                class="text-[#7902b7] uppercase text-sm font-bold tracking-wide py-1 md:py-2"
+              >
+                Services
+              </h1>
+              <ul class="flex flex-col gap-3">
+                <li class="hover:underline cursor-pointer">Jobs</li>
+                <li class="hover:underline cursor-pointer">Companies</li>
+                <li class="hover:underline cursor-pointer">Employers</li>
+                <li class="hover:underline cursor-pointer">Pricing</li>
+                <li class="hover:underline cursor-pointer">Partner</li>
+              </ul>
+            </span>
+
+            <span class="">
+              <h1
+                class="text-[#7902b7] uppercase text-sm font-bold tracking-wide py-1 md:py-2"
+              >
+                Subscribe to our new letter
+              </h1>
+              <ul class="flex flex-col gap-3">
+                <li class="hover:underline cursor-pointer">
+                  We'll keep you updated with the best new jobs.
+                </li>
+
+                <li class="hover:underline cursor-pointer">
+                  <div class="self-start relative">
+                    <input
+                      type="email"
+                      placeholder="enter your email"
+                      class="bg-white w-[250px] md:w-[350px] p-2.5 pl-5 rounded-full border-2 focus:border-[#7902B7] focus:ring-[#7902B7] outline-none"
+                    />
+
+                    <button
+                      class="bg-[#7902B7] absolute z-10 right-1 md:right-1 lg:right-5 top-1 text-white p-3 px-5 rounded-full text-xs font-semibold"
+                    >
+                      <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </span>
+          </div>
+
+          <hr />
+          <div
+            class="flex flex-col-reverse md:flex-row justify-between items-center mx-10 md:mx-24 p-5"
+          >
+            <div class="text-xs md:text-sm pt-3">
+              &#169; 2024 Copywright. All rights reserved
+            </div>
+
+            <div class="flex gap-4 text-xs md:text-sm">
+              <h4 class="">Terms & Conditions</h4>
+              <h4 class="">Privacy Policy</h4>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- ---------------------------- -->
+    </div>
+  </body>
+</html>
