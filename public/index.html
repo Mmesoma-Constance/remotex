@@ -56,6 +56,13 @@
         color: #fff;
         overflow: hidden;
       }
+
+      @media (max-width: 768px) {
+        .textsize {
+          font-size: 53px;
+          line-height: 1.1;
+        }
+      }
     </style>
   </head>
   <body class="">
@@ -64,9 +71,11 @@
         <nav class="flex justify-between mx-7 md:mx-20 m-4 mt-5 items-center">
           <div class="flex gap-1">
             <img src="images/logo.png" alt="" class="w-8" />
-            <h1 class="text-[27px] font-bold text-[#7902B7]">RemoteX</h1>
+            <h1 class="text-[25px] md:text-[27px] font-bold text-[#7902B7]">
+              RemoteX
+            </h1>
           </div>
-          <ul class="hidden md:flex gap-5 items-center">
+          <ul class="hidden lg:flex gap-5 items-center">
             <li class="cursor-pointer">Home</li>
             <li class="cursor-pointer">Category</li>
             <li class="cursor-pointer">Find a job</li>
@@ -86,7 +95,7 @@
               </button>
             </div>
           </ul>
-          <div class="md:hidden">
+          <div class="lg:hidden">
             <i class="fa-solid fa-bars text-[#7902B7] text-2xl"></i>
           </div>
         </nav>
@@ -95,11 +104,11 @@
           <div
             class="flex flex-col items-center mt-10 md:pl-5 self-start gap-6"
           >
-            <h1 class="text-6xl font-bold text-left self-startS">
-              Find world's best <br class="hidden md:inline-block" />
+            <h1 class="textSize text-6xl font-bold text-left self-start">
+              Find world's best <br class="inline-block" />
               <span class="text-[#7902B7]">remote</span> job
             </h1>
-            <p class="self-start w-[65%]">
+            <p class="self-start sm:w-[90%] smxl:w-[70%] lg:w-[65%]">
               Discover the best remote and work from home jobs at top companies.
               sint molestiae animi sunt ipsum commodi
             </p>
@@ -127,7 +136,7 @@
               >
             </p>
           </div>
-          <div class="md:grid grid-rows-2 grid-flow-col gap-3 hidden">
+          <div class="smxl:grid grid-rows-2 grid-flow-col gap-3 hidden">
             <div class="col-span-2 flex justify-end">
               <img
                 src="images/hero7.jpg"
@@ -165,7 +174,9 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit obcaecati
           ducimus!
         </p>
-        <div class="flex flex-col md:flex-row self-start gap-6 md:gap-28 pt-2">
+        <div
+          class="flex flex-col w-[50%] sm:w-full smxl:flex-row self-start gap-6 md:gap-28 pt-2"
+        >
           <div class="">
             <h1
               class="p-3 px-4 my-4 rounded-full faded text-2xl font-bold w-fit"
@@ -203,7 +214,7 @@
       <section
         class="fadedBg py-10 px-7 md:p-10 md:px-14 mt-20 mx-5 md:mx-10 rounded-3xl"
       >
-        <div class="md:px-4">
+        <div class="">
           <h2 class="font-bold text-2xl pt-6">
             Explore by <span class="text-[#7902B7] text-2xl">Category</span>
           </h2>
@@ -214,9 +225,11 @@
           </p>
         </div>
 
-        <div class="mt-9 flex flex-wrap gap-6 justify-center">
+        <div
+          class="mt-9 grid grid-cols-1 smxl:grid-cols-2 lg:grid-cols-3 place-items-center gap-6 justify-center"
+        >
           <div
-            class="bg-white w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+            class="bg-white w-[300px] smxl:w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
           >
             <h1
               class="p-3 px-3 mb-2 rounded-full fadedBg text-lg font-bold w-fit text-[#7902B7]"
@@ -231,7 +244,7 @@
           </div>
 
           <div
-            class="bg-white w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+            class="bg-white w-[300px] smxl:w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
           >
             <h1
               class="p-3 px-3 mb-2 rounded-full fadedBg text-lg font-bold w-fit text-[#7902B7]"
@@ -246,7 +259,7 @@
           </div>
 
           <div
-            class="bg-white w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+            class="bg-white w-[300px] smxl:w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
           >
             <h1
               class="p-3 px-3 mb-2 rounded-full fadedBg text-lg font-bold w-fit text-[#7902B7]"
@@ -256,12 +269,12 @@
             <h3 class="font-bold text-[18px]">Marketing & Sales</h3>
             <h6 class="text-[15px]">65 jobs</h6>
             <p class="text-[15px]">
-              SEO, Data Analysis, SEM, Email marketing, Advertising...
+              SEO, Content Marketing, SEM, Email Marketing, Advertising...
             </p>
           </div>
 
           <div
-            class="bg-white w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+            class="bg-white w-[300px] smxl:w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
           >
             <h1
               class="p-3 px-3 mb-2 rounded-full fadedBg text-lg font-bold w-fit text-[#7902B7]"
@@ -276,7 +289,7 @@
           </div>
 
           <div
-            class="bg-white w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+            class="bg-white w-[300px] smxl:w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
           >
             <h1
               class="p-3 px-3 mb-2 rounded-full fadedBg text-lg font-bold w-fit text-[#7902B7]"
@@ -291,7 +304,7 @@
           </div>
 
           <div
-            class="bg-[#7902B7] text-white w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+            class="bg-[#7902B7] text-white w-[300px] smxl:w-[350px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
           >
             <h1
               class="p-2.5 mb-2 bg-white text-[#7902B7] rounded-full text-lg font-bold w-fit"
@@ -313,23 +326,23 @@
 
       <!-- get started -->
 
-      <section class="mt-10">
+      <section class="md:mt-10">
         <div
-          class="flex flex-col-reverse md:flex-row justify-center mx-10 md:mx-20 mb-10 mt-28 gap-5 md:gap-20"
+          class="flex flex-col-reverse md:flex-row justify-center items-center lg:mx-20 mb-10 mt-14 md:mt-28 gap-5 md:gap-20"
         >
-          <div class="grid grid-rows-1 grid-flow-col gap-3 pr-5 sm:pr-0">
-            <div class="row-start-1 row-span-3 mt-14">
+          <div
+            class="grid grid-rows-1 grid-cols-1 place-items-center gap-3 sm:pr-0"
+          >
+            <div class="flex gap-4">
               <img
                 src="images/hero2.jpg"
                 alt=""
-                class="w-[120px] h-[350px] object-cover rounded-3xl"
+                class="w-[120px] h-[350px] mt-10 rounded-3xl object-cover"
               />
-            </div>
-            <div class="col-span-2 flex gap-4">
               <img
                 src="images/hero1.jpg"
                 alt=""
-                class="w-[100px] h-[300px] mt-7 rounded-3xl object-cover"
+                class="w-[100px] h-[270px] mt-7 rounded-3xl object-cover"
               />
               <img
                 src="images/hero4.jpg"
@@ -346,7 +359,7 @@
             </div> -->
           </div>
           <div
-            class="flex flex-col items-center mt-10 md:pl-5 self-start gap-6 md:w-[35%]"
+            class="flex flex-col items-center mt-10 md:pl-5 self-start gap-6 mx-8 lg:w-[35%]"
           >
             <h1 class="text-4xl font-bold text-left self-start">
               Find your perfect job <br class="hidden md:block" />
@@ -380,7 +393,7 @@
       <!-- featured jobs -->
 
       <section class="featuredBg p-10 md:px-12 mt-20">
-        <div class="md:px-12">
+        <div class="px-8">
           <h2 class="font-bold text-2xl pt-6">
             Featured <span class="text-[#7902B7] text-2xl">Remote</span> Jobs
           </h2>
@@ -394,9 +407,11 @@
           </p>
         </div>
 
-        <div class="mt-9 flex flex-wrap gap-6 justify-center">
+        <div
+          class="mt-9 grid grid-cols-1 smxl:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center grid-flow-row gap-6 justify-center items-center"
+        >
           <div
-            class="bg-white w-[300px] md:w-[250px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+            class="bg-white w-[300px] md:w-[250px] lg:w-[270px] xllg:w-[300px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
           >
             <div class="flex justify-between">
               <div class="flex gap-2">
@@ -416,7 +431,10 @@
               </div>
             </div>
 
-            <h1 class="text-xl font-bold">Senior Visual Designer</h1>
+            <h1 class="text-xl font-bold">
+              Senior Visual <br class="hidden smxl:block" />
+              Designer
+            </h1>
             <ul class="flex flex-wrap gap-3 my-2">
               <li
                 class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
@@ -442,7 +460,7 @@
           </div>
 
           <div
-            class="bg-white w-[300px] md:w-[250px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+            class="bg-white w-[300px] md:w-[250px] lg:w-[270px] xllg:w-[300px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
           >
             <div class="flex justify-between">
               <div class="flex gap-2">
@@ -453,7 +471,7 @@
 
                 <div class="">
                   <h3 class="font-bold">Google</h3>
-                  <h6 class="text-sm">Development & IT</h6>
+                  <h6 class="text-sm">Data Analysis</h6>
                 </div>
               </div>
 
@@ -462,10 +480,7 @@
               </div>
             </div>
 
-            <h1 class="text-xl font-bold">
-              Full Stack <br class="hidden md:block" />
-              Developer
-            </h1>
+            <h1 class="text-xl font-bold">Business Intelligence Analyst</h1>
             <ul class="flex flex-wrap gap-3 my-2">
               <li
                 class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
@@ -491,7 +506,7 @@
           </div>
 
           <div
-            class="bg-white w-[300px] md:w-[250px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+            class="bg-white w-[300px] md:w-[250px] lg:w-[270px] xllg:w-[300px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
           >
             <div class="flex justify-between">
               <div class="flex gap-2">
@@ -511,7 +526,10 @@
               </div>
             </div>
 
-            <h1 class="text-xl font-bold">Junior Product Designer</h1>
+            <h1 class="text-xl font-bold">
+              Junior Product <br class="hidden smxl:block" />
+              Designer
+            </h1>
             <ul class="flex flex-wrap gap-3 my-2">
               <li
                 class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
@@ -537,7 +555,7 @@
           </div>
 
           <div
-            class="bg-white w-[300px] md:w-[250px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+            class="bg-white w-[300px] md:w-[250px] lg:w-[270px] xllg:w-[300px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
           >
             <div class="flex justify-between">
               <div class="flex gap-2">
@@ -557,7 +575,10 @@
               </div>
             </div>
 
-            <h1 class="text-xl font-bold">Senior Backend Developer</h1>
+            <h1 class="text-xl font-bold">
+              Senior Backend <br class="hidden smxl:block" />
+              Developer
+            </h1>
             <ul class="flex flex-wrap gap-3 my-2">
               <li
                 class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
@@ -567,7 +588,7 @@
               <li
                 class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
               >
-                London
+                <i class="fa-solid fa-location-dot"></i> London
               </li>
               <li
                 class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
@@ -583,7 +604,7 @@
           </div>
 
           <div
-            class="bg-white w-[300px] md:w-[250px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+            class="bg-white w-[300px] md:w-[250px] lg:w-[270px] xllg:w-[300px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
           >
             <div class="flex justify-between">
               <div class="flex gap-2">
@@ -629,17 +650,17 @@
           </div>
 
           <div
-            class="bg-white w-[300px] md:w-[250px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+            class="bg-white w-[300px] md:w-[250px] lg:w-[270px] xllg:w-[300px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
           >
             <div class="flex justify-between">
               <div class="flex gap-2">
                 <img
-                  src="images/remote (2).png"
+                  src="images/remote (8).jpeg"
                   class="w-10 h-10 rounded-full object-cover"
                 />
 
                 <div class="">
-                  <h3 class="font-bold">Netomi</h3>
+                  <h3 class="font-bold">X</h3>
                   <h6 class="text-sm">Development & IT</h6>
                 </div>
               </div>
@@ -649,7 +670,10 @@
               </div>
             </div>
 
-            <h1 class="text-xl font-bold">React Native Developer</h1>
+            <h1 class="text-xl font-bold">
+              React Native <br class="hidden smxl:block" />
+              Developer
+            </h1>
             <ul class="flex flex-wrap gap-3 my-2">
               <li
                 class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
@@ -675,7 +699,7 @@
           </div>
 
           <div
-            class="bg-white w-[300px] md:w-[250px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+            class="bg-white w-[300px] md:w-[250px] lg:w-[270px] xllg:w-[300px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
           >
             <div class="flex justify-between">
               <div class="flex gap-2">
@@ -721,18 +745,18 @@
           </div>
 
           <div
-            class="bg-white w-[300px] md:w-[250px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
+            class="bg-white w-[300px] md:w-[250px] smlg:w-[270px] xllg:w-[300px] p-6 rounded-xl flex flex-col gap-1 cursor-pointer"
           >
             <div class="flex justify-between">
               <div class="flex gap-2">
                 <img
-                  src="images/remote (5).png"
+                  src="images/remote (2).png"
                   class="w-10 h-10 rounded-full object-cover"
                 />
 
                 <div class="">
-                  <h3 class="font-bold">Figma</h3>
-                  <h6 class="text-sm">Design & Creative</h6>
+                  <h3 class="font-bold">Netomi</h3>
+                  <h6 class="text-sm">Customer Support</h6>
                 </div>
               </div>
 
@@ -741,7 +765,7 @@
               </div>
             </div>
 
-            <h1 class="text-xl font-bold">UI/UX Designer</h1>
+            <h1 class="text-xl font-bold">Technical Support Representative</h1>
             <ul class="flex flex-wrap gap-3 my-2">
               <li
                 class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
@@ -751,7 +775,7 @@
               <li
                 class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
               >
-                <i class="fa-solid fa-location-dot"></i> Chicago
+                <i class="fa-solid fa-location-dot"></i> Canada
               </li>
               <li
                 class="fadedBg text-[#7902B7] p-1.5 px-4 rounded-full text-[13px]"
@@ -801,15 +825,17 @@
 
       <!-- companies -->
 
-      <section class="my-10 mx-4 sm:mx-10 md:mx-24">
-        <div class="px-5 md:px-10">
+      <section class="my-10 mx-4 lg:mx-24">
+        <div class="px-5 lg:px-10">
           <h2 class="font-bold text-2xl pt-6">
             Companies that let you work
             <span class="text-[#7902B7] text-2xl">remotely</span>
           </h2>
           <p class="pt-2">Find companies that deserve you!</p>
 
-          <div class="mt-10 flex flex-wrap gap-10 md:gap-5 justify-center">
+          <div
+            class="mt-10 grid grid-cols-1 smxl:grid-cols-2 md:grid-cols-3 place-items-center gap-10 md:gap-5 justify-center"
+          >
             <figure class="w-[300px] shadow-lg rounded-3xl cursor-pointer">
               <img
                 src="images/remote (1).jpeg"
@@ -1028,42 +1054,46 @@
             </div>
           </div>
 
-          <div class="hidden md:inline-block absolute top-40 z-10 left-44">
+          <div class="hidden smlg:inline-block absolute top-40 -z-10 left-44">
             <img
               src="images/hero5.avif"
               class="w-10 h-10 mt-3 cursor-pointer rounded-full object-cover"
             />
           </div>
 
-          <div class="hidden md:inline-block absolute top-28 z-10 left-20">
+          <div class="hidden smlg:inline-block absolute top-28 -z-10 left-20">
             <img
               src="images/hero4.jpg"
               class="w-10 h-10 mt-3 cursor-pointer rounded-full object-cover"
             />
           </div>
 
-          <div class="hidden md:inline-block absolute bottom-8 z-10 left-10">
+          <div class="hidden smlg:inline-block absolute bottom-8 -z-10 left-10">
             <img
               src="images/hero2.jpg"
               class="w-10 h-10 mt-3 cursor-pointer rounded-full object-cover"
             />
           </div>
 
-          <div class="hidden md:inline-block absolute top-28 z-10 right-72">
+          <div class="hidden smlg:inline-block absolute top-28 -z-10 right-72">
             <img
               src="images/hero7.jpg"
               class="w-10 h-10 mt-3 cursor-pointer rounded-full object-cover"
             />
           </div>
 
-          <div class="hidden md:inline-block absolute bottom-32 z-10 right-20">
+          <div
+            class="hidden smlg:inline-block absolute bottom-32 -z-10 right-20"
+          >
             <img
               src="images/hero3.webp"
               class="w-10 h-10 mt-3 cursor-pointer rounded-full object-cover"
             />
           </div>
 
-          <div class="hidden md:inline-block absolute bottom-8 z-10 right-48">
+          <div
+            class="hidden smlg:inline-block absolute bottom-8 -z-10 right-48"
+          >
             <img
               src="images/hero9.jpg"
               class="w-10 h-10 mt-3 cursor-pointer rounded-full object-cover"
@@ -1197,9 +1227,9 @@
                     />
 
                     <button
-                      class="bg-[#7902B7] absolute z-10 right-8 md:right-1 lg:right-5 top-2 text-white p-3 px-5 rounded-full text-xs font-semibold"
+                      class="bg-[#7902B7] absolute z-10 right-1 md:right-2 lg:right-1 top-1 text-white p-2.5 px-5 md:px-7 rounded-full text-sm font-semibold"
                     >
-                      <i class="fa-solid fa-paper-plane"></i>
+                      Subscribe
                     </button>
                   </div>
                 </li>
